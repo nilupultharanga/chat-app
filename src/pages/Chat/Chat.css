@@ -1,0 +1,52 @@
+/* Chat Page Styling */
+.chat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f5f5f5;
+}
+
+.chat-container {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    height: 80vh;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Left Sidebar */
+.LeftSidebar {
+    width: 30%;
+    background: #007bff;
+    color: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ChatBox */
+.ChatBox {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+}
+
+/* Right Sidebar */
+.RightSidebar {
+    width: 30%;
+    background: #f0f0f0;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loading{
+    font-size: 50px;
+    color: rgb(233, 99, 177);
+}

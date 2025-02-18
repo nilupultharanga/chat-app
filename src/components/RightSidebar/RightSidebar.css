@@ -1,0 +1,109 @@
+/* Right Sidebar Styles */
+.rs {
+    width: 25%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    background: #e333c9;
+    padding: 20px;
+    border-left: 1px solid #ddd;
+    position: relative;
+    overflow-y: scroll;
+}
+
+/* Profile Section */
+.rs-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    background: #131212;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.rs-profile img {
+    width: 110px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.rs-profile h3 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 18px;
+    color: #fbfbfb;
+}
+
+
+.rs-profile p {
+    font-size: 14px;
+    color: #fffcfc;
+    opacity: 80%;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+.rs hr{
+    border: 1px solid rgb(247, 248, 247);
+    width: 100%;
+    margin: 15px 0px;
+}
+
+/* Media Section */
+.rs-media {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.rs-media p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fffefe;
+}
+
+.rs-media div {
+    display: grid;
+    overflow-y: scroll;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.rs-media img {
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.rs-media img:hover {
+    transform: scale(1.1);
+}
+
+/* Logout Button */
+.rs button {
+    width: 80%;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    background: #ddd;
+    color: #131212;
+    border: none;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 10px 65px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.rs button:hover {
+    background: #cc0000;
+    color: white;
+}
